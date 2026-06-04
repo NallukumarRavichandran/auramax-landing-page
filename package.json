@@ -1,6 +1,7 @@
 {
-  "name": "codespaces-react",
-  "version": "0.1.0",
+  "name": "auramax-landing-page",
+  "version": "1.0.0",
+  "homepage": "https://NallukumarRavichandran.github.io/auramax-landing-page/",
   "private": true,
   "type": "module",
   "dependencies": {
