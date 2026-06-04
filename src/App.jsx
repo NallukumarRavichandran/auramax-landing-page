@@ -1,27 +1,25 @@
-import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Services from './components/Services';
+import Projects from './components/Projects';
+import Location from './components/Location';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Projects />
+      <Location />
+      <Contact />
+      <Footer />
     </div>
   );
 }
